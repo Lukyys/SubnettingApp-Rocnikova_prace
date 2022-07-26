@@ -1,20 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
-    <title>Subnetting</title>
-</head>
-<body>
-<table class="center">
-    <tr>
-        <th>Název</th>
-        <th>Počet hostů</th>
-        <th>Adresa</th>
-        <th>Broadcast</th>
-        <th>Prefix</th>
-    </tr>
-</table>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" type="text/css"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+        <title>Subnetting</title>
+     </head>
+    <body>
+             <h1>Subnetting</h1>
+             <p id="topaddress"><b>192.0.2.0/24</b></p>
+        <table>
+          <thead>
+               <tr>
+                    <th>Počet hostů</th>
+                    <th>Adresa</th>
+                    <th>Broadcast</th>
+                    <th>Prefix</th>
+               </tr>
+          </thead>
+          <tbody id="tableBody">
+
+          </tbody>
+        </table>
+        <button id="checkButton">Zkontrolovat</button>
+        <button id="resetButton">Nový příklad</button>
 
     <script src="main.js"></script>
 </body>
