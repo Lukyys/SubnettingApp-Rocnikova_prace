@@ -84,7 +84,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
               //generace zadani
               zadani = []
-                     for (let i = 0; i < getRndInteger(2, 6); i++) { // Pocet podsiti
+                     for (let i = 0; i < getRndInteger(2, 5); i++) { // Pocet podsiti
                      zadani[i] = getRndInteger(3, 100) // pocet hostu
                             
                      }   

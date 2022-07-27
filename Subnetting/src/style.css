@@ -86,4 +86,7 @@ table, thead, tr, th {
     padding: 16px 32px;
     margin: 4px 2px;
     font-family: 'Roboto Mono', monospace;
+    font-size: 25px;
+    color: black;
+    border-radius: 15px;
 }
